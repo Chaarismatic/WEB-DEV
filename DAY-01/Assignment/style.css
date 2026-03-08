@@ -1,0 +1,84 @@
+@font-face {
+  font-family: myfont;
+  src: url(../Regaltion\ Highter.ttf);
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+html,body{
+  height:100%;
+  width: 100%;
+}
+#header{
+  background: radial-gradient(black,lightblue, royalblue);
+  /* background: linear-gradient(to bottom right, purple, royalblue, royalblue, purple); */
+  color:aquamarine;
+  font-family: myfont;
+  font-size:30px;
+  text-align: center;
+  padding: 40px;
+}
+#lower{
+  /* background: linear-gradient(to right, purple,royalblue, royalblue,purple); */
+  background: radial-gradient(lightblue,royalblue);
+  font-family: myfont;
+  text-align: center; 
+}
+#EDUCATION{
+  background-color: black;
+  margin:10px;
+  padding:40px;
+  width:900px;
+  color:aquamarine;
+  margin-left: 20%;
+}
+#SKILLS{
+  background-color: black;
+  margin: 10px;
+  padding: 40px;
+  width: 900px;
+  color: aquamarine;
+  margin-left: 20%;
+}
+#PROJECTS{
+  background-color: black;
+  margin: 10px;
+  padding: 40px;
+  width: 900px;
+  color: aquamarine;
+  margin-left: 20%;
+}
+#CONTACT{
+  background-color: black;
+  margin: 10px;
+  padding: 40px;
+  width: 900px;
+  color: aquamarine;
+  margin-left: 20%;
+}
+.contain{
+  margin:10px;
+  background-color: blueviolet;
+  padding:30px;
+  font-size:15px;
+}
+.contain:hover{
+  transform: scale(1.2);
+}
+h2{
+  font-size: 30px;
+  margin:10px;
+  background-color: red;
+}
+#about{
+  margin:0;
+  background-color: black;
+  color:yellow;
+  padding:10px;
+}
+p{
+  padding:20px;
+  font-size: 20px;
+}
