@@ -18,7 +18,6 @@ html,body{
   background-color: black;
   position: relative;
   top:90px;
-  z-index: -1;
 }
 img{
   height: 200px;
@@ -72,6 +71,7 @@ a{
   align-items: center;
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 button:hover{
   background-color: red;
