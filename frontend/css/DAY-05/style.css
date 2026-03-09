@@ -1,0 +1,110 @@
+@font-face {
+  font-family: apple;
+  src: url(https://assets-cloud.landmarkshops.in/web/fonts/figtree/figtree-bold.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: apple;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 170px;
+  width: 100%;
+  position: fixed;
+  /* background:linear-gradient(to bottom right,lightblue,royalblue); */
+  background-color: white;
+}
+.pehla , .doosra , .teesra{
+  display:flex;
+  justify-content: space-between;
+  margin:20px 60px;
+  height: 450px;
+}
+#one{
+  background-image: url(https://www.apple.com/v/home/cm/images/promos/macbook-air-m5/promo_macbook_air_m5_preorder__bpanndgew0s2_medium_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  
+} 
+#two{
+  background-image: url(https://www.apple.com/v/home/cm/images/promos/ipad-air-m4/promo_ipad_air_m4_preorder__fxdk8w5n7uq2_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#three {
+  background-image: url(https://www.apple.com/v/home/cm/images/promos/iphone-17-pro/promo_iphone_17_pro__ywtbkeachg2e_medium_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  color:white;
+}
+#four{
+  background-image: url(https://www.apple.com/v/home/cm/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#five{
+  background-image: url(https://www.apple.com/v/home/cm/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#six{
+  background-image: url(https://www.apple.com/v/home/cm/images/promos/carriers/promo_carrier__e0izvxwqosgi_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div{
+  width:49%;
+  padding:4% 15%;
+}
+.blue{
+  padding:10px 20px;
+  border: 2px solid royalblue;
+  background-color: royalblue;
+  border-radius: 50px;
+}
+.white {
+  padding: 10px 20px;
+  border: 2px solid royalblue;
+  background-color: white;
+  color:royalblue;
+  border-radius: 50px;
+  margin:20px;
+}
+.white:hover{
+  transform: scale(1.1);
+}
+.blue:hover {
+  transform: scale(1.1);
+}
+#footer{
+  text-align: center;
+  width: 100%;
+}
+#first {
+  background-image: url(https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo_announce__bby9lpmknpv6_mediumtall_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 0;
+}
+#second {
+  background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-17e/hero_iphone_17e_preorder__cn2t90t11yoi_mediumtall_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.middiv {
+  height:80vh;
+  width: 95vw;
+  margin:30px;
+  padding:6% 36%;
+}
