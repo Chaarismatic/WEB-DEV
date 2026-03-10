@@ -14,7 +14,7 @@ html, body {
   justify-content: space-around;
   min-height: calc(100vh - 90px);
   margin-top: 90px;
-  background: linear-gradient(to bottom left,royalblue,lightblue);
+  background: linear-gradient(to bottom left,transparent,grey);
 }
 .card{
   height: 300px;
