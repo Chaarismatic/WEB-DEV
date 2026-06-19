@@ -46,10 +46,12 @@
 
 
 
-// let arr = [10,20,"Brijesh","Hello"]
-// let arr1 = [11,21,"Brijesh2","Hello2"]
-// console.log(arr.join("_"))
-
+let arr = [10,20,"Brijesh","Hello"]
+let arr1 = [11,21,"Brijesh2","Hello2"]
+console.log(arr.join("_"))
+let arr2 = [13,45,67,"dijk"]
+let arr3 = arr.concat(arr1,arr2)
+console.log(arr3)
 
 // let arr = [10,20,"Brijesh","Hello"]
 // console.log(arr.includes("Brijesh"))
@@ -59,6 +61,6 @@
 // console.log(arr.lastIndexOf(10))
 
 
-let arr = [10,20,"Brijesh","Hello",70,30,40]
-arr.sort()
-console.log(arr)
+// let arr = [10,20,"Brijesh","Hello",70,30,40]
+// arr.sort()
+// console.log(arr)
