@@ -24,8 +24,7 @@ products.forEach((product)=>{
 
   const image = document.createElement('img')
   image.src = product.image
-  image.style.height = '300px'
-  image.style.width = '200px'
+
 
   const Brand = document.createElement('h3')
   Brand.textContent = product.brand
@@ -36,10 +35,29 @@ products.forEach((product)=>{
   const Discount = document.createElement('h3')
   Discount.textContent = product.discount
 
-  div.append(Title,Price,image,Brand,Rating,Discount)
-  div.style.margin = '20px'
-  div.style.backgroundColor = 'pink'
+  div.classList.add("product-card");
 
+const content = document.createElement("div");
+content.classList.add("product-content");
+
+Title.classList.add("product-title");
+Price.classList.add("product-price");
+
+Brand.classList.add("meta");
+
+const bottom = document.createElement("div");
+bottom.classList.add("bottom");
+
+Rating.classList.add("rating");
+Discount.classList.add("discount");
+
+bottom.append(Rating, Discount);
+
+content.append(Title, Price, Brand, bottom);
+
+div.append(image, content);
+
+  
   frag.append(div)
 
 })
