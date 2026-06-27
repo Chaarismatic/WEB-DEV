@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #0f172a;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  width: 450px;
+  height: 450px;
+  background: #2563eb;
+  border-radius: 50%;
+  filter: blur(170px);
+  top: -120px;
+  left: -120px;
+  opacity: .35;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  width: 450px;
+  height: 450px;
+  background: #8b5cf6;
+  border-radius: 50%;
+  filter: blur(170px);
+  bottom: -120px;
+  right: -120px;
+  opacity: .35;
+}
+
+#app {
+  width: 100%;
+  max-width: 500px;
+}
+
+#title {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+#search-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+#city-input {
+  flex: 1;
+  padding: 16px;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, .08);
+  color: white;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, .12);
+  font-size: 1rem;
+}
+
+#city-input::placeholder {
+  color: #cbd5e1;
+}
+
+#search-btn {
+  padding: 16px 24px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  transition: .3s;
+}
+
+#search-btn:hover {
+  transform: translateY(-3px);
+}
+
+#weather-card {
+  background: rgba(255, 255, 255, .08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 30px;
+  padding: 35px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, .35);
+  text-align: center;
+}
+
+#city-name {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#weather-description {
+  color: #cbd5e1;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+#temperature-box {
+  margin-bottom: 35px;
+}
+
+#temperature {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#weather-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.detail {
+  background: rgba(255, 255, 255, .05);
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.detail-title {
+  color: #94a3b8;
+  margin-bottom: 8px;
+}
+
+.detail span {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
